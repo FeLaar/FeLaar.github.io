@@ -1,0 +1,178 @@
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: rgb(226, 252, 255);  
+    
+    color: #3b3b3b;
+    font: Courgette, Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+h3 {
+    border-style: solid;
+    border-color: rgb(217, 158, 240);
+    margin: 5px 2px 0px 1px;
+    border: 4px, 4px, 4px, 4px;
+    text-align: right;
+    text-decoration: underline overline dotted rgb(255, 0, 234);
+    font-family: 'Courgette';font-size: 17px;
+}
+
+article {
+    text-align: justify;
+}
+
+header {
+    color: #16cfc6;
+    text-shadow:4px 4px 4px rgb(0, 255, 221);
+    text-align: center;
+    font-family: 'Courgette';font-size: 14px;
+}
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Courgette';font-size: 14px;
+}
+
+
+/* specifieke stijlen */
+
+@font-face {
+   font-family: Courgette;
+   src: url(fonts/Courgette-Regular.ttf);
+}
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+    border-style: double;
+    height: 150px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+img.zweefRechts {
+    float: right;
+    margin-right: 15px;
+    border-style: double;
+    height: 150px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+}
+
+.BronnenRechts {
+    float: right;
+    padding: 5px;
+    border-style: dashed none dashed none ;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.WwKleurenList {
+    background-color: rgb(167, 252, 202);
+    list-style-type:square;
+}
+
+.ZnKleureList {
+    background-color: rgb(255, 218, 243);
+    list-style-type:circle;
+}
+
+.rood {
+    background-color: red;
+    color: white;
+}
+
+.oranje {
+    background-color: rgb(255, 153, 0);
+    color: rgb(51, 51, 51);
+}
+
+.geel {
+    background-color: yellow
+}
+
+.groen {
+    background-color: green;
+    color: black;
+}
+
+.blauw {
+    background-color: rgb(57, 57, 230);
+    color: white;
+}
+
+.indigo {
+    background-color: indigo;
+    color: white;
+}
+
+.violet {
+    background-color: violet;
+}
+
+/* navigatiebalk */
+ ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #9bebff;
+    overflow: hidden;
+}
+
+nav {
+    float: left;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    height: 100%;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-shadow: 0 0 5px #00ff40;
+}
+
+nav li a:hover {
+    background-color: #86aef8;
+}
+
+ nav li a.active {
+    background-color: rgb(165, 213, 253);
+}
+
+
