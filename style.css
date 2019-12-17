@@ -24,7 +24,8 @@ h3 {
     border: 4px, 4px, 4px, 4px;
     text-align: right;
     text-decoration: underline overline dotted rgb(255, 0, 234);
-    font-family: 'Courgette';font-size: 17px;
+    font-family: 'Courgette';
+    font-size: 17px;
 }
 
 article {
