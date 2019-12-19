@@ -30,6 +30,7 @@ h3 {
 
 article {
     text-align: justify;
+    margin-left: 130px;
 }
 
 header {
@@ -137,6 +138,11 @@ a:hover {
 
 .violet {
     background-color: violet;
+}
+
+.HomeP {
+    font-family: 'Courgette';
+    font-size: 15px;
 }
 
 /* navigatiebalk */
